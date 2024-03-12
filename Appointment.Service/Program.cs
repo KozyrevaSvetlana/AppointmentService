@@ -10,6 +10,7 @@ using BusinessLogic.Services.Mapping;
 using MassTransit;
 using System.Transactions;
 
+//просто тест для гита
 var builder = WebApplication.CreateBuilder(args);
 IConfiguration configuration = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
